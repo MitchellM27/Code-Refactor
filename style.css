@@ -1,0 +1,150 @@
+/*adding border an margin to entire page using the * symbol*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* creating a background color for the body*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*adjusting the font, color scheme and spacing using padding of the header*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*formatting the h1 page title and making it act as a block */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*adjusting the size, spacing, and font of the section in the header */
+.header section {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*negate the bulleted list style fromat of the list */
+.header section ul {
+    list-style-type: none;
+}
+
+/*allowing the listed items to act as independent blocks, spaced from eachother on the left side*/
+.header section ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*editing color and normalizing text of the listed items */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*adjusting font size of the text */
+p {
+    font-size: 16px;
+}
+
+/*stating the parameters necessary for the background image to stay centered, and cover the necessary portion of the page */
+#hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*making the image position itself on the left side. */
+#float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*making the image position itself on the right side. */
+#float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*adjusting the spacing and positioning of all 3 main content sections */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*adjusting the spacing and positioning of all 3 benefits sections */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*stating the bottom spacing and color for the sections */
+#benefit-sections {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*defining the bottom margin and text alignment */
+#benefit-sections h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*adjusting the image specifications */
+#benefit-sections img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*adding margin, padding and styling to the content section */
+.content section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*adjusting the image height to be uniform */
+.content section img {
+    max-height: 200px;
+}
+
+/*defining the margin and font size of the h2 section */
+.content section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*defining the style and spacing of the footer */
+#footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*differentiating the h2 font size from the default.*/
+#footer h2 {
+    font-size: 20px;
+}
